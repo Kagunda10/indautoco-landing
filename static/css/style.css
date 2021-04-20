@@ -1,0 +1,453 @@
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-BlackItalic.eot');
+    src: local('Axiforma Black Italic'), local('Axiforma-BlackItalic'),
+        url('../fonts/Axiforma/Axiforma-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-BlackItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Bold.eot');
+    src: local('Axiforma Bold'), local('Axiforma-Bold'),
+        url('../fonts/Axiforma/Axiforma-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Bold.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-ThinItalic.eot');
+    src: local('Axiforma Thin Italic'), local('Axiforma-ThinItalic'),
+        url('../fonts/Axiforma/Axiforma-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-ThinItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Heavy.eot');
+    src: local('Axiforma Heavy'), local('Axiforma-Heavy'),
+        url('../fonts/Axiforma/Axiforma-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Heavy.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Medium.eot');
+    src: local('Axiforma Medium'), local('Axiforma-Medium'),
+        url('../fonts/Axiforma/Axiforma-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Medium.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-LightItalic.eot');
+    src: local('Axiforma Light Italic'), local('Axiforma-LightItalic'),
+        url('../fonts/Axiforma/Axiforma-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-LightItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-BoldItalic.eot');
+    src: local('Axiforma Bold Italic'), local('Axiforma-BoldItalic'),
+        url('../fonts/Axiforma/Axiforma-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-BoldItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-BookItalic.eot');
+    src: local('Axiforma Book Italic'), local('Axiforma-BookItalic'),
+        url('../fonts/Axiforma/Axiforma-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-BookItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-SemiBold.eot');
+    src: local('Axiforma SemiBold'), local('Axiforma-SemiBold'),
+        url('../fonts/Axiforma/Axiforma-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-SemiBold.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Black.eot');
+    src: local('Axiforma Black'), local('Axiforma-Black'),
+        url('../fonts/Axiforma/Axiforma-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Black.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Thin.eot');
+    src: local('Axiforma Thin'), local('Axiforma-Thin'),
+        url('../fonts/Axiforma/Axiforma-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Thin.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Book.eot');
+    src: local('Axiforma Book'), local('Axiforma-Book'),
+        url('../fonts/Axiforma/Axiforma-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Book.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-ExtraBold.eot');
+    src: local('Axiforma ExtraBold'), local('Axiforma-ExtraBold'),
+        url('../fonts/Axiforma/Axiforma-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-ExtraBold.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-HeavyItalic.eot');
+    src: local('Axiforma Heavy Italic'), local('Axiforma-HeavyItalic'),
+        url('../fonts/Axiforma/Axiforma-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-HeavyItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-MediumItalic.eot');
+    src: local('Axiforma Medium Italic'), local('Axiforma-MediumItalic'),
+        url('../fonts/Axiforma/Axiforma-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-MediumItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Italic.eot');
+    src: local('Axiforma Italic'), local('Axiforma-Italic'),
+        url('../fonts/Axiforma/Axiforma-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Italic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-SemiBoldItalic.eot');
+    src: local('Axiforma SemiBold Italic'), local('Axiforma-SemiBoldItalic'),
+        url('../fonts/Axiforma/Axiforma-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Regular.eot');
+    src: local('Axiforma Regular'), local('Axiforma-Regular'),
+        url('../fonts/Axiforma/Axiforma-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Regular.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-Light.eot');
+    src: local('Axiforma Light'), local('Axiforma-Light'),
+        url('../fonts/Axiforma/Axiforma-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-Light.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('../fonts/Axiforma/Axiforma-ExtraBoldItalic.eot');
+    src: local('Axiforma ExtraBold Italic'), local('Axiforma-ExtraBoldItalic'),
+        url('../fonts/Axiforma/Axiforma-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Axiforma/Axiforma-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/Axiforma/Axiforma-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+/*
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+
+::-webkit-scrollbar {width: 6px;}
+::-webkit-scrollbar:focus{50px}
+::-webkit-scrollbar-track {background: #ddd; }
+::-webkit-scrollbar-thumb {background:#413E3E; ;border-radius:5px;}
+::-webkit-scrollbar-thumb:hover {background:#413E3E }
+body{font-family: 'Axiforma';}
+.box-shadow-none{box-shadow: none !important}
+p{font-size: 14px; font-weight: 400;}
+h1{ font-weight: 800; font-size: 38px}
+h2{font-weight: 800; font-size: 24px}
+h3{ font-weight: 800; font-size: 16px}
+.text-white{color: white !important}
+.text-gray{color: #C4C4C4 !important}
+.text-dark-gray{color: #6E6E6E !important}
+.text-black{color: #413E3E !important}
+.bold{font-weight: 500 !important}
+.italic{font-style: italic !important}
+
+
+.header-content{height: calc(100% - 100px)}
+h1.header-h1 {font-size: 58px}
+.line{height: 1px; background: #E1E1E1}
+.dark-line{height: 1px; background: #6E6E6E}
+a.header-a{color: #C4C4C4; font-size: 20px;}
+.nav-wrapper{height: calc(100vh - 100px)}
+
+.theme-black-txt{color: #4B4B4B !important}
+.theme-blue-txt{color: #5C6AC4 !important}
+.theme-btn{background: #5C6AC4; border-radius: 0; color: white !important; font-size: 14px; font-weight: 600; text-transform: inherit; box-shadow: none; height: 60px; min-width: 205px}
+.theme-btn-white{background: #fff !important; color: #5C6AC4 !important}
+.theme-btn:hover{background: #4B4B4B; transition: 0.5s}
+
+
+.nav-quote-btn{width: 244px; height: 96px;}
+
+.main-nav{background: #FCFCFF; height: 96px; padding: 10px 0 10px 10px;}
+.navbar-collapse{height: 96px;}
+.main-nav .navbar-nav{}
+.main-nav .navbar-nav a{color: #4B4B4B !important; font-size: 14px; font-weight: 600; padding-top: 30px; border-top: 6px solid #FBFBFD}
+.main-nav .navbar-nav a.active{color: #5C6AC4 !important; border-color: #5C6AC4 !important}
+.main-nav .navbar-nav a:hover{color: #5C6AC4 !important; transition: .5s}
+
+.contact-row{background: #5C6AC4;}
+.contact-row p{font-size: 12px}
+
+.special-offer p.theme-blue-txt{font-weight: 800}
+.special-offer .single-product{background: #FBFBFD}
+.special-offer{padding-left: 8rem}
+.special-offer-section .view-all-feature{margin-left: 8rem}
+.special-offer .slick-prev.slick-arrow{display: none !important} 
+.special-offer .slick-arrow.slick-next{right: auto; top: 50% !important; left: 50px;}
+.special-offer .slick-arrow.slick-next g{opacity: 1}
+.special-offer .slick-arrow.slick-next path{fill:#5C6AC4 !important}
+.special-offer .slick-dots{display: none !important}
+/*.view-all-feature{padding-left: 7rem}*/
+.facility{background: #FBFBFD;}
+.icon-box{height: 82px; width: 92px; background: #5C6AC4; margin-top: -40px; box-shadow: 0 10px 30px #ddd;}
+.facility h3{color: #5C6AC4}
+.facility:hover{transition: 0.3s; background: #5C6AC4;}
+.facility:hover h3{color: white}
+.facility:hover .icon-box{background: #FBFBFD; box-shadow: 0px 22px 25px -5px #363e9c; transition: 0.3s}
+.facility:hover .icon-box path{fill:#5C6AC4}
+.facility:hover .icon-box text{fill:#5C6AC4}
+
+.featured-products{max-width: 930px}
+.f-product{background: #FBFBFD; min-height: 450px;}
+.f-brand{font-weight: 800; color: #949599}
+.price-row{position: absolute; bottom:20px; right: 0}
+.f-price{font-size: 16px; height: 42px; min-width: 109px}
+
+.featured-slider h2{font-size: 16px}
+.featured-slider .f-price{min-width: 78px; font-size: 12px;}
+.featured-slider .f-product{min-height: 350px; min-width: 212px}
+.featured-slider .f-image img{width: 170px; height: intrinsic;}
+.featured-slider .slick-arrow.slick-next{right: auto !important; top: 45% !important; background: #5C6AC4; height: 28px; width: 28px;}
+.featured-slider .slick-arrow.slick-prev{left: auto !important; top: 45% !important; background: #5C6AC4; height: 28px; width: 28px;}
+.featured-slider .slick-arrow svg{width: 16px; height: 16px;}
+.featured-slider .slick-arrow svg g{opacity: 1 !important}
+.featured-slider .slick-arrow svg path{fill:#fff}
+
+.independent-siemens{background: #5C6AC4;}
+.independent-section a{position: absolute; bottom: 30px; right: 62px; width: auto;}
+
+.client-logo{background: #FBFBFD}
+
+footer{background: #4B4B4B; margin-top: 7rem}
+footer a{font-size: 14px; font-weight: 600}
+
+.chat-btn{right: 0; bottom: 0; z-index: 999}
+.chat-btn svg{width: 120px; height: 120px}
+
+.home-header{padding-top: 96px;}
+.main-nav{top: 0; z-index: 99}
+.special-offer{padding-right: 0 !important}
+.trusted-container{max-width: 816px;}
+.featured-slider .slide:not(.slick-active){opacity: 0.5 !important}
+
+
+@media (min-width:1600px){
+    .independent-section{max-width: 1230px; margin: 0 auto !important; margin-top: 5rem !important}
+}
+@media (min-width:1280px) and (max-width:1599px){
+    .header-cover img{width: 100%;}
+}
+
+@media (min-width:1280px){
+    .contact-row{background: #5C6AC4; position: absolute; bottom: 0; left: 0; right: 0; max-width: 816px}
+    .header-cover img{position: relative; margin-top: -25px; z-index: -1; margin-left: auto}
+    .special-offer .single-product{min-height: 385px; min-width: 295px}
+    .special-offer-section .view-all-feature{padding-left: 8rem}
+    
+}
+
+@media (min-width:1024px) and (max-width:1360px){
+    .d-flex.d-sm-none{}
+}
+
+
+@media (width:1024px){
+    h1.header-h1{font-size: 48px; margin-top: 0 !important}
+    .home-header{height: auto !important}
+    h3{font-size: 14px;}
+    .independent-siemens img{width: 100%; height: auto}
+    footer h1{font-size: 32px}
+    footer svg{width: 90px}
+    
+    .special-offer .single-product{min-height: 385px; min-width: 295px}
+    .special-offer-section .view-all-feature{padding-left: 8rem}
+    
+}
+
+@media (max-width:1024px){
+    .header-cover img{width: 100%; height: auto}
+    .contact-row{margin-top: 30px; max-width: 100%;}
+    
+}
+
+@media (width:768px){
+    .nav-quote-btn{display: none}
+    .d-none.d-sm-flex, .d-none.d-sm-block{display: none !important}
+    .contact-row{margin-top: 30px !important}
+    .facility{margin-top: 0 !important; min-height: 225px;}
+    .independent-siemens img.w-100{width: 140% !important}
+    footer .d-block.d-sm-inline{display: block !important}
+}
+
+@media (max-width:768px){
+    .header{height: auto !important;}
+    .header-content{padding: 6rem 1rem 3rem 0}
+    .menu-btn rect{fill:#5C6AC4}
+    .menu-a{font-size: 32px; font-weight: 600}
+    .overlay-logo svg path{fill:#fff }
+    .header-h1{font-size: 32px !important}
+    p{font-size: 12px; !important}
+    p br{display: none}
+    .header-h1{margin-top: 0 !important}
+    h1{font-size: 22px}
+    h3{font-size: 16px}
+    .theme-btn{min-width: 307px; height: 40px; font-size: 12px; }
+    .header-cover img{margin-top: 26px}
+    .contact-row{margin-top: 0}
+    .special-offer{padding: 0}
+    .special-offer .single-product{min-height: 330px; min-width: 255px}
+    .view-all-feature{padding: 0; text-align: center}
+    .slick-dots{display: flex !important; justify-content: center; margin-top: 26px;}
+    .slick-dots li{width: 8px !important; height: 8px  !important; margin: 0 5px  !important;}
+    .slick-dots li.slick-active{background: #5C6AC4 !important}
+    .special-offer .slick-arrow.slick-next{display: none !important}
+    .facility{margin-top: 65px;}
+    .independent-siemens{min-height: 533px}
+    .independent-section a{right: 0; left: 0; text-align: center}
+    .independent-section a button{min-width: 205px;}
+    .independent-siemens div.w-100{position: absolute; left: 0; bottom: 85px;}
+    .client-logo img{max-width: 90px; height: auto}
+    footer .col-sm-6{text-align: center}
+    .chat-btn svg{width: 90px; height: 90px}
+    .d-flex.d-sm-none{display: flex !important}
+    .d-block.d-sm-none{display: block !important}
+    .special-offer .slick-dots{display: flex !important}
+    .special-offer{padding-left: 2rem}
+    .contact-row{padding-left: 3.5rem}
+    .nav-overlay{z-index: 999 !important}
+    .nav-overlay .nav-wrapper a.active{color: #4B4B4B !important}
+    
+    
+}
+
+@media (orientation: landscape) and (max-height:550px){
+    .header{height: auto !important;}
+    .header-content{padding: 6rem 1rem 3rem 0}
+    .menu-btn rect{fill:#5C6AC4}
+    .menu-a{font-size: 32px; font-weight: 600}
+    .overlay-logo svg path{fill:#fff }
+    .header-h1{font-size: 32px !important}
+    p{font-size: 12px; !important}
+    p br{display: none}
+    .header-h1{margin-top: 0 !important}
+    h1{font-size: 22px}
+    h3{font-size: 16px}
+    .theme-btn{min-width: 55; height: 40px; font-size: 12px; }
+    .contact-row{margin-top: 30px}
+    .special-offer{padding: 0}
+    .special-offer .single-product{min-height: 330px; min-width: 255px}
+    .view-all-feature{padding: 0; text-align: center}
+    .slick-dots{display: flex !important; justify-content: center; margin-top: 26px;}
+    .slick-dots li{width: 8px !important; height: 8px  !important; margin: 0 5px  !important;}
+    .slick-dots li.slick-active{background: #5C6AC4 !important}
+    .special-offer .slick-arrow.slick-next{display: none !important}
+    .facility{margin-top: 65px;}
+    .independent-siemens{min-height: 602px}
+    .independent-section a{right: 0; left: 0; text-align: center}
+    .independent-section a button{min-width: 205px;}
+    .independent-siemens div.w-100{position: absolute; left: 0; bottom: 85px;}
+    .client-logo img{max-width: 90px; height: auto}
+    footer .col-sm-6{text-align: center}
+    .chat-btn svg{width: 90px; height: 90px}
+    .nav-quote-btn{display: none}
+    .special-offer .slick-dots{display: flex !important}
+    .facility{margin-top: 0 !important; min-height: 225px;}
+    .d-flex.d-sm-none{display: flex !important}
+    .featured-products .f-image img{width: 170px !important; height: auto}
+    
+    .d-none.d-sm-flex{display: none !important}
+    .nav-overlay{z-index: 999 !important}
+    .nav-overlay .nav-wrapper a.active{color: #4B4B4B !important}
+    
+}

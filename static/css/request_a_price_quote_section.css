@@ -1,0 +1,87 @@
+/*
+* CSS FOR THE WHOLE REQUEST A PRICE QUOTE SECTION
+*/
+.request_a_price_quote_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;/* TODO: adjust to responsiveness*/
+    padding: 0;
+}
+
+.highlighted-text {
+    color:#5C6AC4; /*color text in blue*/
+}
+
+/*
+* The whole section has two sections left and right these are divs in the code
+*/
+.left-section {
+    display: flex;
+    flex-direction: column;
+}
+.quote-response-time-div {
+    /* background-color: red; */
+    flex:1;
+}
+.part-listing-div  {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    flex: 1;
+    /* background-color: red; */
+
+}
+.part-listing-div > p {
+    margin: 20px 0px;
+}
+/* 
+* .part-listing-div > p >span:nth-child(1) is the title for the part listings
+ */
+.part-listing-div > p >span:nth-child(1){
+    /* font-size: 16px !important; */
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+/* 
+* part-listing-div > p >span:nth-child(2) is the value for the part listings
+ */
+.part-listing-div > p >span:nth-child(2){
+    /* font-size: 16px; */
+    font-size: 20px;
+}
+input,select {
+    display: block;
+    width: 100%;
+    margin-bottom: 19.44444px;
+}
+input, select {
+    padding: 10px 18px;
+}
+
+input[type="text"] {
+    outline: none;
+    border-radius: 0;
+    background: none;
+    border:none;
+    border: 1px solid #5c6ac4;
+    background-color: white;
+    color: black;
+    max-width: 100%;
+    line-height: 1.2;
+    border-radius: 2px;
+}
+
+
+@media screen and (max-width:575px){
+    .request_a_price_quote_section-row {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}
+@media screen and (max-width:530px){
+    .request_a_price_quote_section {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+}

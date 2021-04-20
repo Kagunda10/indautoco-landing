@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="180" viewBox="0 0 180 180">
+  <defs>
+    <filter id="Rectangle_77" x="0" y="0" width="180" height="180" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_47" data-name="Group 47" transform="translate(-1148 -4900)">
+    <g transform="matrix(1, 0, 0, 1, 1148, 4900)" filter="url(#Rectangle_77)">
+      <rect id="Rectangle_77-2" data-name="Rectangle 77" width="90" height="90" rx="45" transform="translate(45 35)" fill="#5c6ac4"/>
+    </g>
+    <g id="Icon_ionic-ios-chatbubbles" data-name="Icon ionic-ios-chatbubbles" transform="translate(1217.509 4958.759)">
+      <path id="Path_3449" data-name="Path 3449" d="M34.642,26.3a2.037,2.037,0,0,1,.278-1.026,2.833,2.833,0,0,1,.177-.261,13.626,13.626,0,0,0,2.321-7.594C37.442,9.665,30.9,3.375,22.81,3.375A14.506,14.506,0,0,0,8.488,14.551a13.514,13.514,0,0,0-.311,2.876,14.265,14.265,0,0,0,14.38,14.22A17.319,17.319,0,0,0,26.527,31c.95-.261,1.892-.605,2.136-.7a2.223,2.223,0,0,1,.782-.143,2.186,2.186,0,0,1,.849.168l4.768,1.69a1.137,1.137,0,0,0,.328.084.669.669,0,0,0,.673-.673,1.08,1.08,0,0,0-.042-.227Z" transform="translate(0.941)" fill="#fff"/>
+      <path id="Path_3450" data-name="Path 3450" d="M26.122,30.478c-.3.084-.69.177-1.11.269a15.521,15.521,0,0,1-2.859.378,14.265,14.265,0,0,1-14.38-14.22,15.9,15.9,0,0,1,.126-1.8c.05-.362.109-.723.193-1.076.084-.378.185-.757.294-1.127l-.673.6a12.515,12.515,0,0,0-4.339,9.41,12.375,12.375,0,0,0,2.086,6.9c.193.294.3.521.269.673s-1,5.214-1,5.214a.675.675,0,0,0,.227.648.685.685,0,0,0,.429.151.6.6,0,0,0,.244-.05l4.718-1.858a1.314,1.314,0,0,1,1.009.017,14.153,14.153,0,0,0,5.1,1.009,13.207,13.207,0,0,0,10.1-4.634s.269-.37.58-.807C26.829,30.276,26.475,30.385,26.122,30.478Z" transform="translate(0 1.867)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
